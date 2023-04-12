@@ -35,3 +35,33 @@
 		opacity: 1;
 		margin: 4rem 0 0 0;
 	}
+	
+	.container {
+		max-width: 1000px;
+		margin: 0 auto; /* Center the container */
+	}
+	
+	.column {
+		display: flex;
+		flex-direction: column;
+	}
+	
+	.row {
+		display: flex;
+		flex-wrap: wrap;
+	}
+	
+	.no-gutter {
+		margin: -20px; /* To remove the outer padding when using padding in columns */
+	}
+	
+	.col-lg-4,
+	.col-sm-6 {
+		padding: 20px;
+	}
+	
+	.img-fluid {
+		max-width: 100%;
+		height: auto;
+	}
+	
